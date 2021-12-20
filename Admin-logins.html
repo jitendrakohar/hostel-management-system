@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+       .login-form{
+        box-shadow: 1px 5px 5px black;
+        background-color: rgba(139, 80, 80, 0.2);
+        width:30rem;
+        height:80%;
+        position: absolute;
+        top: 13%;
+        right: 5%;
+       }
+        .button{
+           margin-top:20px;
+            
+        }
+        form{
+          text-align: center; 
+          width:100%;
+          height:100%;
+          font-size: 30px;
+          position:absolute;
+          top: 10%;
+          
+        }
+        .inputform{
+          
+          font-size: 25px;
+          width: 15rem;
+        }
+       body{
+           background-image: url('banner.jpg');
+           width:100%;
+           height:100%;
+           
+           text-align:center;
+           background-size:cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+       }
+       .button{
+           font-weight: 700;
+           font-size: 30px;
+           width: 90%;
+           box-shadow: 10px 5px 5px solid white;
+
+       }
+       .button:hover{
+           background-color: rgb(187, 153, 42);
+           color: white;
+       }
+       a{
+           text-decoration: none;
+       }
+    .logina{
+       
+          text-decoration: none;
+          margin-top:40px;
+          font-weight: bolder
+          
+       }
+       input[type=text], input[type=password] {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+    </style>
+</head>
+<body>
+   <div class="bannerimage"></div> 
+    <div class="login-form">
+         <h1>LOG IN AS ADMIN</h1>
+        <form >    
+            <!--  -->
+        <label><P style="font-size:2rem;font-weight: bold;">USN:</P></label>          
+                  <input type="text"  width="20px"class="inputform" name="username" placeholder="Username" required="required"/>
+                <br>
+                  <label><P style="font-size:2rem;font-weight: bold;">Password:</P></label>
+                  <input type="password" class="inputform" name="Password" Placeholder="Password" required/>
+                  <br><button type="button" class="button" style="background-color:seagreen;"><a href="#" >Login</a></button><br><br>
+                  <a class="logina" href="Student-login.html" style="color: blue;">Login As Student</a><br>
+                  <!-- <li style="list-style:none;font-size: 20px;text-decoration: none;padding-top: 15px;">Don't have any account?</li>
+                 
+                  <a  href="#" style="font-size: 20px;text-decoration: none;padding-bottom: 14px;"> Sign Up Now as a student</a>
+                  -->
+                </form>
+            </div>
+    
+</body>
+</html>
